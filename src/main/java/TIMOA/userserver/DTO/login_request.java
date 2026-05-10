@@ -1,0 +1,15 @@
+package TIMOA.userserver.DTO;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class login_request {
+    private String userId;
+    private String password;
+}
